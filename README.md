@@ -24,4 +24,3 @@ To run the code and reproduce the results, follow these steps:
    ```shell
    git clone https://github.com/Bouaskaoun/Sentiment-Analysis-On-Trip-Advisor-Hotel-Reviews.git
    cd Sentiment-Analysis-On-Trip-Advisor-Hotel-Reviews/
-```
