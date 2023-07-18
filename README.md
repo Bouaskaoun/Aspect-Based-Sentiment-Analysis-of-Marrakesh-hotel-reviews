@@ -7,6 +7,7 @@ This repository contains the code and resources for performing sentiment analysi
 - [Dataset](#dataset)
 - [Installation](#installation)
 - [Approaches](#approaches)
+- [Process](#Process)
 - [Evaluation](#evaluation)
 - [Results](#results)
 
@@ -38,6 +39,25 @@ This project employs three different approaches for sentiment classification:
 3. Bidirectional Encoder Representations from Transformers (BERT)
    - BERT is a transformer-based model that learns contextual representations of words in text.
    - This approach fine-tunes a pre-trained BERT model on the hotel review data for sentiment classification.
+
+## Process
+
+To perform sentiment analysis and aspect-based sentiment analysis, the project follows a step-by-step process outlined below:
+
+1. **Importing Required Libraries and Models:**
+   - The necessary libraries and models are imported to support the sentiment analysis and aspect-based sentiment analysis tasks.
+
+2. **Computing Sentiment and Aspect Scores:**
+   - The text data, which consists of hotel reviews, undergoes preprocessing to prepare it for analysis.
+   - Nouns are extracted from the preprocessed text to identify the relevant aspects of the reviews.
+   - Alternative names or synonyms for the aspects are obtained to ensure comprehensive analysis.
+   - Sentiment scores are calculated for each aspect, indicating the sentiment (positive or negative) associated with them.
+
+3. **Visualization:**
+   - The sentiment scores obtained for each aspect are visualized using a bar plot.
+   - The bar plot provides a clear representation of the sentiment distribution across different aspects, allowing for easy comparison.
+
+This process enables the sentiment analysis of hotel reviews and the identification of specific aspects related to customer experiences. By visualizing the sentiment scores, it becomes easier to understand the overall sentiment and identify areas of strength and improvement for hotels in Marrakesh.
 
 ## Evaluation
 The sentiment classification models are evaluated using various evaluation metrics, including accuracy, precision, recall, and F1 score. The evaluation is performed on a test set of labeled reviews from the dataset. The results are analyzed to determine the effectiveness of each approach.
