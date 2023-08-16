@@ -15,7 +15,7 @@ This repository contains the code and resources for performing sentiment analysi
 Understanding customer sentiments expressed in hotel reviews is crucial for the hospitality industry. This project focuses on sentiment classification and aspect-based sentiment analysis of hotel reviews in Marrakesh. By employing machine learning techniques, the project aims to automate the analysis process and provide valuable insights for improving customer satisfaction.
 
 ## Dataset
-The dataset used in this project consists of English hotel reviews obtained from TripAdvisor. The reviews were scraped using Selenium from the TripAdvisor website specifically for hotels in Marrakesh. The dataset contains a diverse range of customer sentiments.
+The dataset used in this project consists of English hotel reviews obtained from TripAdvisor. The reviews were scraped using Selenium from the [TripAdvisor](https://www.tripadvisor.com/) website specifically for hotels in Marrakesh. The dataset contains a diverse range of customer sentiments.
 
 ## Installation
 To run the code and reproduce the results, follow these steps:
