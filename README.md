@@ -64,3 +64,10 @@ The sentiment classification models are evaluated using various evaluation metri
 
 ## Results
 The results of the sentiment classification models and aspect-based sentiment analysis are presented in detail in the project report. The performance of each approach, including accuracy and other evaluation metrics, is discussed. The aspect-based sentiment analysis provides insights into the strengths and weaknesses of different hotels in Marrakesh.
+
+## Screenshots
+
+![Screenshot 1](Screenshots/screen1.jpeg)
+![Screenshot 2](Screenshots/screen2.jpeg)
+![Screenshot 3](Screenshots/screen3.jpeg)
+![Screenshot 4](Screenshots/screen4.jpeg)
